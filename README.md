@@ -54,12 +54,12 @@ Contains the MATLAB source files and dependencies required to reproduce the nume
 
 The primary model is a **non-dimensionalised reaction–diffusion system**.
 
-$$
+```math
 \frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2} + u(1-u) - \frac{\mu uv}{u + \phi} = f(u, v) \tag{1}
-$$
-$$
+```
+```math
 \frac{\partial v}{\partial t} = D \frac{\partial^2 v}{\partial x^2} + \psi v - \frac{\psi v^2}{u} = g(u, v) \tag{2}
-$$
+```
 
 The variables \(u\) and \(v\) represent the **non-dimensional prey and predator densities**, respectively, with the densities non-dimensionalised using the carrying capacity.
 
